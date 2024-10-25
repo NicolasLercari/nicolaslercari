@@ -10,6 +10,6 @@ const Button = React.forwardRef(({ className, ...props }, ref) => {
     )
 })
 
-Button.displayName = "Button"
+Button.displayNsshame = "Button"
 
 export { Button }
