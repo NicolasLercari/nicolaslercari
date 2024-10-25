@@ -11,7 +11,6 @@ export default function HomePage() {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        // Aquí iría la lógica para enviar el formulario
         console.log('Formulario enviado', { name, email, message })
     }
 
@@ -34,13 +33,13 @@ export default function HomePage() {
                     <h2 className="text-4xl font-bold mb-4">Software Engineer</h2>
                     <p className="text-xl mb-6">Apasionado por crear soluciones innovadoras y eficientes</p>
                     <div className="flex justify-center space-x-4">
-                        <a href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/NicolasLercari" target="_blank" rel="noopener noreferrer">
                             <Github className="w-6 h-6" />
                         </a>
-                        <a href="https://linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/nicolas-lercari-37720b7a" target="_blank" rel="noopener noreferrer">
                             <Linkedin className="w-6 h-6" />
                         </a>
-                        <a href="mailto:tu@email.com">
+                        <a href="mailto:nicolaslercari@email.com">
                             <Mail className="w-6 h-6" />
                         </a>
                     </div>
