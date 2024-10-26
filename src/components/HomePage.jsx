@@ -47,7 +47,10 @@ export default function HomePage() {
             <main className="container mx-auto px-4 py-8">
                 <section id="about" className="mb-16 text-center">
                     <h2 className="text-4xl font-bold mb-4">Software Engineer</h2>
-                    <p className="text-xl mb-6">Apasionado por crear soluciones innovadoras y eficientes</p>
+                    <p className="text-xl mb-6">I hold a degree in Systems Analysis (from FIUBA) with over 6 years of experience as a software engineer, currently able to contribute my knowledge and experience as a Team Lead.
+                        I enjoy the constant challenge of learning and improving, finding motivation at every stage of the process, from the initial idea to the implementation.
+                        I have a full-stack profile with a strong focus on technology, with experience in both infrastructure and development, covering both server-side and client-side. This gives me an additional advantage, allowing me to contribute to the team on both fronts.
+                        I consider myself a highly committed individual, capable of working effectively in teams and providing innovative solutions to business challenges. At the same time, I place a strong emphasis on results, as ultimately, they determine the success of the product.</p>
                     <div className="flex justify-center space-x-4">
                         <a href="https://github.com/NicolasLercari" target="_blank" rel="noopener noreferrer">
                             <Github className="w-6 h-6"/>
@@ -81,9 +84,9 @@ export default function HomePage() {
                     <h2 className="text-3xl font-bold mb-6 text-center">Proyectos Destacados</h2>
                     <div className="grid md:grid-cols-2 gap-8">
                         {projects.map((project) => (
-                            <div key={project.id} className="border rounded-lg overflow-hidden">
+                            <div key={project.id} className="border rounded-lg overflow-hidden ">
                                 <img src={`${project.srcImage}`} alt={`Project ${project.name}`}
-                                     className="w-full h-48 object-cover"/>
+                                     className="w-full h-48 p-6 object-contain"/>
                                 <div className="p-4">
                                     <h3 className="text-xl font-semibold mb-2">{project.name}</h3>
                                     <p className="text-muted-foreground mb-4">{project.description}</p>
